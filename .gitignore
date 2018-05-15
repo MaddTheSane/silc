@@ -40,3 +40,6 @@ apps/irssi/docs/help
 *draft*.txt
 configure.ac
 stamp-h1
+*.DS_Store
+xcuserdata/
+project.xcworkspace/
