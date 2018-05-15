@@ -420,7 +420,7 @@ char *silc_get_input(const char *prompt, SilcBool echo_off);
  *    This function is system dependant.
  *
  ***/
-char *silc_get_username();
+char *silc_get_username(void);
 
 /****f* silcutil/SilcUtilAPI/silc_get_real_name
  *
@@ -436,7 +436,7 @@ char *silc_get_username();
  *    This function is system dependant.
  *
  ***/
-char *silc_get_real_name();
+char *silc_get_real_name(void);
 
 /****f* silcutil/SilcUtilAPI/silc_va_copy
  *

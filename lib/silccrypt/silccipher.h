@@ -55,7 +55,7 @@ typedef struct {
 		      SilcUInt32, unsigned char *);
   SilcBool (*decrypt)(void *, const unsigned char *, unsigned char *,
 		      SilcUInt32, unsigned char *);
-  SilcUInt32 (*context_len)();
+  SilcUInt32 (*context_len)(void);
   unsigned int key_len   : 10;
   unsigned int block_len : 8;
   unsigned int iv_len    : 8;
@@ -108,7 +108,7 @@ SilcBool silc_##cipher##_decrypt(void *context,			\
 				 SilcUInt32 len,		\
 				 unsigned char *iv)
 #define SILC_CIPHER_API_CONTEXT_LEN(cipher)	\
-SilcUInt32 silc_##cipher##_context_len()
+SilcUInt32 silc_##cipher##_context_len(void)
 
 /****d* silccrypt/SilcCipherAPI/SilcCipherMode
  *

@@ -73,7 +73,7 @@ typedef struct {
   void (*update)(void *, const unsigned char *, SilcUInt32);
   void (*final)(void *, unsigned char *);
   void (*transform)(SilcUInt32 *, const unsigned char *);
-  SilcUInt32 (*context_len)();
+  SilcUInt32 (*context_len)(void);
 } SilcHashObject;
 
 /* Marks for all hash functions. This can be used in silc_hash_unregister
