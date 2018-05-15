@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  libsilc
+//
+//  Created by C.W. Betts on 5/14/18.
+//  Copyright © 2018 C.W. Betts. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#include <libsilc/libsilc.h>
+
+#endif /* PrefixHeader_pch */

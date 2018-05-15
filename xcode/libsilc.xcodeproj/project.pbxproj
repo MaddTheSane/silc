@@ -1,0 +1,1486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550B324220AA01ED00E88B48 /* libsilc.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B324020AA01ED00E88B48 /* libsilc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B325120AA023E00E88B48 /* libsilcclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B324F20AA023E00E88B48 /* libsilcclient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B326C20AA02D100E88B48 /* silcmessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B325520AA02D000E88B48 /* silcmessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B326D20AA02D100E88B48 /* silcnotify.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B325620AA02D000E88B48 /* silcnotify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B326E20AA02D100E88B48 /* silcstatus.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B325720AA02D000E88B48 /* silcstatus.c */; };
+		550B326F20AA02D100E88B48 /* silcmode.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B325820AA02D000E88B48 /* silcmode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B327020AA02D100E88B48 /* silcargument.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B325920AA02D000E88B48 /* silcargument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B327120AA02D100E88B48 /* silcnotify.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B325A20AA02D000E88B48 /* silcnotify.c */; };
+		550B327220AA02D100E88B48 /* silcpacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B325B20AA02D000E88B48 /* silcpacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B327320AA02D100E88B48 /* silcargument.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B325C20AA02D000E88B48 /* silcargument.c */; };
+		550B327420AA02D100E88B48 /* silccommand.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B325D20AA02D000E88B48 /* silccommand.c */; };
+		550B327520AA02D100E88B48 /* silcpubkey.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B325E20AA02D000E88B48 /* silcpubkey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B327620AA02D100E88B48 /* silcchannel.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B325F20AA02D000E88B48 /* silcchannel.c */; };
+		550B327720AA02D100E88B48 /* silcmessage.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B326020AA02D000E88B48 /* silcmessage.c */; };
+		550B327820AA02D100E88B48 /* silcid.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B326120AA02D000E88B48 /* silcid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B327920AA02D100E88B48 /* silcstatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B326220AA02D000E88B48 /* silcstatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B327A20AA02D100E88B48 /* silcauth.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B326320AA02D000E88B48 /* silcauth.c */; };
+		550B327B20AA02D100E88B48 /* silcchannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B326420AA02D000E88B48 /* silcchannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B327C20AA02D100E88B48 /* silcid.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B326520AA02D100E88B48 /* silcid.c */; };
+		550B327D20AA02D100E88B48 /* silcpacket.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B326620AA02D100E88B48 /* silcpacket.c */; };
+		550B327E20AA02D100E88B48 /* silcpubkey.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B326720AA02D100E88B48 /* silcpubkey.c */; };
+		550B327F20AA02D100E88B48 /* silcauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B326820AA02D100E88B48 /* silcauth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B328020AA02D100E88B48 /* silccommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B326920AA02D100E88B48 /* silccommand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B328120AA02D100E88B48 /* silcattrs.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B326A20AA02D100E88B48 /* silcattrs.c */; };
+		550B328220AA02D100E88B48 /* silcattrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B326B20AA02D100E88B48 /* silcattrs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B328520AA032300E88B48 /* silc.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328320AA032200E88B48 /* silc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B328620AA032300E88B48 /* silcversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328420AA032300E88B48 /* silcversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B328820AA034F00E88B48 /* silcdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328720AA034F00E88B48 /* silcdefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32C520AA03BE00E88B48 /* silcmime.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328920AA03B800E88B48 /* silcmime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32C620AA03BE00E88B48 /* silcfsm.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328A20AA03B900E88B48 /* silcfsm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32C720AA03BE00E88B48 /* silcsnprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328B20AA03B900E88B48 /* silcsnprintf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32C820AA03BE00E88B48 /* silcutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328C20AA03B900E88B48 /* silcutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32C920AA03BE00E88B48 /* silctime.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B328D20AA03B900E88B48 /* silctime.c */; };
+		550B32CA20AA03BE00E88B48 /* silcstack.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328E20AA03B900E88B48 /* silcstack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32CB20AA03BE00E88B48 /* silcconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B328F20AA03B900E88B48 /* silcconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32CC20AA03BE00E88B48 /* silcasync_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329020AA03B900E88B48 /* silcasync_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32CD20AA03BE00E88B48 /* silcfsm_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329120AA03B900E88B48 /* silcfsm_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32CE20AA03BE00E88B48 /* silcasync.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329220AA03BA00E88B48 /* silcasync.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32CF20AA03BE00E88B48 /* silclist.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329320AA03BA00E88B48 /* silclist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32D020AA03BE00E88B48 /* silcsocketstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B329420AA03BA00E88B48 /* silcsocketstream.c */; };
+		550B32D120AA03BE00E88B48 /* silcbuffmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329520AA03BA00E88B48 /* silcbuffmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32D220AA03BE00E88B48 /* silcthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329620AA03BA00E88B48 /* silcthread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32D320AA03BE00E88B48 /* silcbuffmt.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B329720AA03BA00E88B48 /* silcbuffmt.c */; };
+		550B32D420AA03BE00E88B48 /* silclog_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329820AA03BA00E88B48 /* silclog_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32D520AA03BE00E88B48 /* silcschedule.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B329920AA03BA00E88B48 /* silcschedule.c */; };
+		550B32D620AA03BE00E88B48 /* silcstrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B329A20AA03BA00E88B48 /* silcstrutil.c */; };
+		550B32D720AA03BE00E88B48 /* silcdlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329B20AA03BA00E88B48 /* silcdlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32D820AA03BE00E88B48 /* silcfdstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329C20AA03BA00E88B48 /* silcfdstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32D920AA03BE00E88B48 /* silcfileutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B329D20AA03BB00E88B48 /* silcfileutil.c */; };
+		550B32DA20AA03BE00E88B48 /* silcutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B329E20AA03BB00E88B48 /* silcutil.c */; };
+		550B32DB20AA03BE00E88B48 /* silcmime_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B329F20AA03BB00E88B48 /* silcmime_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32DC20AA03BE00E88B48 /* stacktrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32A020AA03BB00E88B48 /* stacktrace.c */; };
+		550B32DD20AA03BE00E88B48 /* silcnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32A120AA03BB00E88B48 /* silcnet.c */; };
+		550B32DE20AA03BE00E88B48 /* silcfdstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32A220AA03BB00E88B48 /* silcfdstream.c */; };
+		550B32DF20AA03BE00E88B48 /* silcnet.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32A320AA03BB00E88B48 /* silcnet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E020AA03BE00E88B48 /* silcsocketstream_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32A420AA03BB00E88B48 /* silcsocketstream_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E120AA03BE00E88B48 /* silcstack.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32A520AA03BB00E88B48 /* silcstack.c */; };
+		550B32E220AA03BE00E88B48 /* silcstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32A620AA03BB00E88B48 /* silcstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E320AA03BE00E88B48 /* silcmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32A720AA03BC00E88B48 /* silcmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E420AA03BE00E88B48 /* silcschedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32A820AA03BC00E88B48 /* silcschedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E520AA03BE00E88B48 /* silcschedule_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32A920AA03BC00E88B48 /* silcschedule_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E620AA03BE00E88B48 /* silcstack_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32AA20AA03BC00E88B48 /* silcstack_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E720AA03BE00E88B48 /* silcstrutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32AB20AA03BC00E88B48 /* silcstrutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32E820AA03BE00E88B48 /* silcmime.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32AC20AA03BC00E88B48 /* silcmime.c */; };
+		550B32E920AA03BE00E88B48 /* silclog.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32AD20AA03BC00E88B48 /* silclog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32EA20AA03BE00E88B48 /* silcsnprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32AE20AA03BC00E88B48 /* silcsnprintf.c */; };
+		550B32EB20AA03BE00E88B48 /* silcsocketstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32AF20AA03BC00E88B48 /* silcsocketstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32EC20AA03BE00E88B48 /* silcstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32B020AA03BC00E88B48 /* silcstream.c */; };
+		550B32ED20AA03BE00E88B48 /* silctime.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32B120AA03BD00E88B48 /* silctime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32EE20AA03BE00E88B48 /* silcstringprep.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32B220AA03BD00E88B48 /* silcstringprep.c */; };
+		550B32EF20AA03BE00E88B48 /* silcfsm.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32B320AA03BD00E88B48 /* silcfsm.c */; };
+		550B32F020AA03BE00E88B48 /* silcmutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32B420AA03BD00E88B48 /* silcmutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32F120AA03BE00E88B48 /* silcutf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32B520AA03BD00E88B48 /* silcutf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32F220AA03BE00E88B48 /* silchashtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32B620AA03BD00E88B48 /* silchashtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32F320AA03BE00E88B48 /* silclog.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32B720AA03BD00E88B48 /* silclog.c */; };
+		550B32F420AA03BE00E88B48 /* silcstringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32B820AA03BD00E88B48 /* silcstringprep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32F520AA03BE00E88B48 /* silcfileutil.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32B920AA03BD00E88B48 /* silcfileutil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32F620AA03BE00E88B48 /* silcutf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32BA20AA03BD00E88B48 /* silcutf8.c */; };
+		550B32F720AA03BE00E88B48 /* silcconfig.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32BB20AA03BD00E88B48 /* silcconfig.c */; };
+		550B32F820AA03BE00E88B48 /* stacktrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32BC20AA03BE00E88B48 /* stacktrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32F920AA03BE00E88B48 /* silchashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32BD20AA03BE00E88B48 /* silchashtable.c */; };
+		550B32FA20AA03BE00E88B48 /* silcmemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32BE20AA03BE00E88B48 /* silcmemory.c */; };
+		550B32FB20AA03BE00E88B48 /* silcbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32BF20AA03BE00E88B48 /* silcbuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32FC20AA03BE00E88B48 /* silcnet_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32C020AA03BE00E88B48 /* silcnet_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32FD20AA03BE00E88B48 /* silcasync.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B32C120AA03BE00E88B48 /* silcasync.c */; };
+		550B32FE20AA03BE00E88B48 /* silcatomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32C220AA03BE00E88B48 /* silcatomic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B32FF20AA03BE00E88B48 /* silccond.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32C320AA03BE00E88B48 /* silccond.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B330020AA03BE00E88B48 /* silctypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B32C420AA03BE00E88B48 /* silctypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B331E20AA041200E88B48 /* silcunixthread.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B330820AA041200E88B48 /* silcunixthread.c */; };
+		550B332320AA041200E88B48 /* silcunixsocketstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B330D20AA041200E88B48 /* silcunixsocketstream.c */; };
+		550B332820AA041200E88B48 /* silcunixutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B331220AA041200E88B48 /* silcunixutil.c */; };
+		550B332A20AA041200E88B48 /* silcunixnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B331420AA041200E88B48 /* silcunixnet.c */; };
+		550B332F20AA041200E88B48 /* silcunixschedule.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B331A20AA041200E88B48 /* silcunixschedule.c */; };
+		550B334120AA045A00E88B48 /* silcprimegen.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B333120AA045A00E88B48 /* silcprimegen.c */; };
+		550B334320AA045A00E88B48 /* tma.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B333320AA045A00E88B48 /* tma.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B334420AA045A00E88B48 /* tma_superclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B333420AA045A00E88B48 /* tma_superclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B334620AA045A00E88B48 /* mpbin.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B333620AA045A00E88B48 /* mpbin.c */; };
+		550B334720AA045A00E88B48 /* silcmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B333720AA045A00E88B48 /* silcmath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B334820AA045A00E88B48 /* silcmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B333820AA045A00E88B48 /* silcmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B334920AA045A00E88B48 /* mp_tma.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B333920AA045A00E88B48 /* mp_tma.c */; };
+		550B334B20AA045A00E88B48 /* tma.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B333B20AA045A00E88B48 /* tma.c */; };
+		550B334C20AA045A00E88B48 /* mp_gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B333C20AA045A00E88B48 /* mp_gmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B334D20AA045A00E88B48 /* modinv.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B333D20AA045A00E88B48 /* modinv.c */; };
+		550B334E20AA045A00E88B48 /* tma_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B333E20AA045A00E88B48 /* tma_class.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B335020AA045A00E88B48 /* mp_tma.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B334020AA045A00E88B48 /* mp_tma.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B338520AA04C600E88B48 /* ciphers_def.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335320AA04C600E88B48 /* ciphers_def.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B338620AA04C600E88B48 /* twofish_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335420AA04C600E88B48 /* twofish_internal.h */; };
+		550B338720AA04C600E88B48 /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B335520AA04C600E88B48 /* aes.c */; };
+		550B338820AA04C600E88B48 /* silcrng.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B335620AA04C600E88B48 /* silcrng.c */; };
+		550B338920AA04C600E88B48 /* blowfish_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335720AA04C600E88B48 /* blowfish_internal.h */; };
+		550B338A20AA04C600E88B48 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335820AA04C600E88B48 /* blowfish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B338B20AA04C600E88B48 /* silcpkcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335920AA04C600E88B48 /* silcpkcs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B338C20AA04C600E88B48 /* silchash.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335A20AA04C600E88B48 /* silchash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B338D20AA04C600E88B48 /* silcpk.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335B20AA04C600E88B48 /* silcpk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B338F20AA04C600E88B48 /* twofish.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B335D20AA04C600E88B48 /* twofish.c */; };
+		550B339020AA04C600E88B48 /* none.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335E20AA04C600E88B48 /* none.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B339120AA04C600E88B48 /* rc5_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B335F20AA04C600E88B48 /* rc5_internal.h */; };
+		550B339220AA04C600E88B48 /* cast_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336020AA04C600E88B48 /* cast_internal.h */; };
+		550B339320AA04C600E88B48 /* silcpkcs1_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336120AA04C600E88B48 /* silcpkcs1_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B339620AA04C600E88B48 /* rsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B336420AA04C600E88B48 /* rsa.c */; };
+		550B339720AA04C600E88B48 /* silccipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B336520AA04C600E88B48 /* silccipher.c */; };
+		550B339820AA04C600E88B48 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336620AA04C600E88B48 /* md5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B339920AA04C600E88B48 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B336720AA04C600E88B48 /* sha1.c */; };
+		550B339A20AA04C600E88B48 /* sha256.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336820AA04C600E88B48 /* sha256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B339B20AA04C600E88B48 /* silcpkcs1.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336920AA04C600E88B48 /* silcpkcs1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B339C20AA04C600E88B48 /* silchmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336A20AA04C600E88B48 /* silchmac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B339D20AA04C600E88B48 /* rc5.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336B20AA04C600E88B48 /* rc5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B339E20AA04C600E88B48 /* rijndael_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B336C20AA04C600E88B48 /* rijndael_internal.h */; };
+		550B33A020AA04C600E88B48 /* silchash.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B336E20AA04C600E88B48 /* silchash.c */; };
+		550B33A120AA04C600E88B48 /* silcpkcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B336F20AA04C600E88B48 /* silcpkcs.c */; };
+		550B33A220AA04C600E88B48 /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B337020AA04C600E88B48 /* blowfish.c */; };
+		550B33A320AA04C600E88B48 /* silcrng.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337120AA04C600E88B48 /* silcrng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33A420AA04C600E88B48 /* silcpk_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337220AA04C600E88B48 /* silcpk_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33A520AA04C600E88B48 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337320AA04C600E88B48 /* aes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33A620AA04C600E88B48 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337420AA04C600E88B48 /* cast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33A720AA04C600E88B48 /* twofish.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337520AA04C600E88B48 /* twofish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33A820AA04C600E88B48 /* none.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B337620AA04C600E88B48 /* none.c */; };
+		550B33A920AA04C600E88B48 /* silcpk.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B337720AA04C600E88B48 /* silcpk.c */; };
+		550B33AA20AA04C600E88B48 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337820AA04C600E88B48 /* sha1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33AB20AA04C600E88B48 /* sha256_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337920AA04C600E88B48 /* sha256_internal.h */; };
+		550B33AC20AA04C600E88B48 /* ciphers.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337A20AA04C600E88B48 /* ciphers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33AD20AA04C600E88B48 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B337B20AA04C600E88B48 /* sha256.c */; };
+		550B33AE20AA04C600E88B48 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B337C20AA04C600E88B48 /* md5.c */; };
+		550B33AF20AA04C600E88B48 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337D20AA04C600E88B48 /* rsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33B020AA04C600E88B48 /* sha1_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337E20AA04C600E88B48 /* sha1_internal.h */; };
+		550B33B120AA04C600E88B48 /* silccipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B337F20AA04C600E88B48 /* silccipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33B220AA04C600E88B48 /* md5_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B338020AA04C600E88B48 /* md5_internal.h */; };
+		550B33B320AA04C600E88B48 /* silcdh.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B338120AA04C600E88B48 /* silcdh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33B520AA04C600E88B48 /* silchmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B338320AA04C600E88B48 /* silchmac.c */; };
+		550B33B620AA04C600E88B48 /* silcpkcs1.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B338420AA04C600E88B48 /* silcpkcs1.c */; };
+		550B33BE20AA053100E88B48 /* silcvcard.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33B920AA053100E88B48 /* silcvcard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33C120AA053100E88B48 /* silcvcard.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33BC20AA053100E88B48 /* silcvcard.c */; };
+		550B33CE20AA055400E88B48 /* silcber.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33C420AA055400E88B48 /* silcber.c */; };
+		550B33D020AA055400E88B48 /* silcasn1.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33C620AA055400E88B48 /* silcasn1.c */; };
+		550B33D220AA055400E88B48 /* silcasn1_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33C820AA055400E88B48 /* silcasn1_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33D320AA055400E88B48 /* silcber.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33C920AA055400E88B48 /* silcber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33D420AA055400E88B48 /* silcasn1.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33CA20AA055400E88B48 /* silcasn1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33D520AA055400E88B48 /* silcasn1_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33CB20AA055400E88B48 /* silcasn1_decode.c */; };
+		550B33D620AA055400E88B48 /* silcasn1_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33CC20AA055400E88B48 /* silcasn1_encode.c */; };
+		550B33D920AA05D200E88B48 /* silcmessage_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33D820AA05D200E88B48 /* silcmessage_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33EB20AA05F000E88B48 /* silcapputil.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33DC20AA05F000E88B48 /* silcapputil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33EE20AA05F000E88B48 /* silcidcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33DF20AA05F000E88B48 /* silcidcache.c */; };
+		550B33F120AA05F000E88B48 /* silcapputil.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33E220AA05F000E88B48 /* silcapputil.c */; };
+		550B33F720AA05F000E88B48 /* silcidcache.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33E920AA05F000E88B48 /* silcidcache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B33FF20AA061900E88B48 /* silcskr_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33F920AA061900E88B48 /* silcskr_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B340120AA061900E88B48 /* silcskr.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B33FB20AA061900E88B48 /* silcskr.c */; };
+		550B340320AA061900E88B48 /* silcskr.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B33FD20AA061900E88B48 /* silcskr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B341320AA063D00E88B48 /* groups_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B340620AA063D00E88B48 /* groups_internal.h */; };
+		550B341420AA063D00E88B48 /* silcske_i.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B340720AA063D00E88B48 /* silcske_i.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B341520AA063D00E88B48 /* silcske.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B340820AA063D00E88B48 /* silcske.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B341620AA063D00E88B48 /* silcske_payload.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B340920AA063D00E88B48 /* silcske_payload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B341820AA063D00E88B48 /* groups.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B340B20AA063D00E88B48 /* groups.c */; };
+		550B341920AA063D00E88B48 /* silcconnauth.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B340C20AA063D00E88B48 /* silcconnauth.c */; };
+		550B341B20AA063D00E88B48 /* silcske.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B340E20AA063D00E88B48 /* silcske.c */; };
+		550B341C20AA063D00E88B48 /* payload.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B340F20AA063D00E88B48 /* payload.c */; };
+		550B341E20AA063D00E88B48 /* silcske_groups.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B341120AA063D00E88B48 /* silcske_groups.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B341F20AA063D00E88B48 /* silcconnauth.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B341220AA063D00E88B48 /* silcconnauth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B342B20AA065E00E88B48 /* silcsftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B342120AA065E00E88B48 /* silcsftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B342C20AA065E00E88B48 /* sftp_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B342220AA065E00E88B48 /* sftp_util.c */; };
+		550B342E20AA065E00E88B48 /* sftp_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B342420AA065E00E88B48 /* sftp_server.c */; };
+		550B343020AA065E00E88B48 /* sftp_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B342620AA065E00E88B48 /* sftp_client.c */; };
+		550B343120AA065E00E88B48 /* sftp_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B342720AA065E00E88B48 /* sftp_util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B343320AA065E00E88B48 /* silcsftp_fs.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B342920AA065E00E88B48 /* silcsftp_fs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B343420AA065E00E88B48 /* sftp_fs_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B342A20AA065E00E88B48 /* sftp_fs_memory.c */; };
+		550B343620AA06ED00E88B48 /* silcdistdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B343520AA06ED00E88B48 /* silcdistdefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B343A20AA071D00E88B48 /* stringprep.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B343820AA071D00E88B48 /* stringprep.c */; };
+		550B343B20AA071D00E88B48 /* stringprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B343920AA071D00E88B48 /* stringprep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B343F20AA07CD00E88B48 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 550B343E20AA07CD00E88B48 /* libiconv.tbd */; };
+		550B344120AA080600E88B48 /* rfc3454.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B344020AA080600E88B48 /* rfc3454.c */; };
+		550B344320AA082E00E88B48 /* nfkc.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B344220AA082E00E88B48 /* nfkc.c */; };
+		550B346120AA09D300E88B48 /* client_notify.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B344420AA09D100E88B48 /* client_notify.c */; };
+		550B346220AA09D300E88B48 /* client_register.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B344520AA09D100E88B48 /* client_register.c */; };
+		550B346320AA09D300E88B48 /* client_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B344620AA09D100E88B48 /* client_internal.h */; };
+		550B346420AA09D300E88B48 /* client_notify.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B344720AA09D100E88B48 /* client_notify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B346520AA09D300E88B48 /* client_attrs.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B344820AA09D100E88B48 /* client_attrs.c */; };
+		550B346620AA09D300E88B48 /* client_entry.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B344920AA09D100E88B48 /* client_entry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B346720AA09D300E88B48 /* command_reply.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B344A20AA09D100E88B48 /* command_reply.c */; };
+		550B346820AA09D300E88B48 /* command.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B344B20AA09D100E88B48 /* command.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B346920AA09D300E88B48 /* client_connect.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B344C20AA09D100E88B48 /* client_connect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B346A20AA09D300E88B48 /* client_channel.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B344D20AA09D100E88B48 /* client_channel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B346B20AA09D300E88B48 /* client_listener.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B344E20AA09D200E88B48 /* client_listener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B346C20AA09D300E88B48 /* client_entry.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B344F20AA09D200E88B48 /* client_entry.c */; };
+		550B346D20AA09D300E88B48 /* client_ftp.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B345020AA09D200E88B48 /* client_ftp.c */; };
+		550B346E20AA09D300E88B48 /* client_channel.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B345120AA09D200E88B48 /* client_channel.c */; };
+		550B346F20AA09D300E88B48 /* client_prvmsg.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B345220AA09D200E88B48 /* client_prvmsg.c */; };
+		550B347020AA09D300E88B48 /* client_register.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345320AA09D200E88B48 /* client_register.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347120AA09D300E88B48 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B345420AA09D200E88B48 /* client.c */; };
+		550B347220AA09D300E88B48 /* client_ftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345520AA09D200E88B48 /* client_ftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347320AA09D300E88B48 /* client_keyagr.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B345620AA09D200E88B48 /* client_keyagr.c */; };
+		550B347420AA09D300E88B48 /* command_reply.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345720AA09D200E88B48 /* command_reply.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347620AA09D300E88B48 /* silcclient_entry.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345920AA09D200E88B48 /* silcclient_entry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347720AA09D300E88B48 /* client_keyagr.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345A20AA09D200E88B48 /* client_keyagr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347820AA09D300E88B48 /* client_connect.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B345B20AA09D200E88B48 /* client_connect.c */; };
+		550B347920AA09D300E88B48 /* silcclient.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345C20AA09D200E88B48 /* silcclient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347A20AA09D300E88B48 /* client_listener.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B345D20AA09D300E88B48 /* client_listener.c */; };
+		550B347B20AA09D300E88B48 /* client_prvmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345E20AA09D300E88B48 /* client_prvmsg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347C20AA09D300E88B48 /* client.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B345F20AA09D300E88B48 /* client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550B347D20AA09D300E88B48 /* command.c in Sources */ = {isa = PBXBuildFile; fileRef = 550B346020AA09D300E88B48 /* command.c */; };
+		550B348020AA0AD500E88B48 /* libsilc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 550B323D20AA01ED00E88B48 /* libsilc.framework */; };
+		550B348420AA0EFA00E88B48 /* gunidecomp.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B348220AA0EFA00E88B48 /* gunidecomp.h */; };
+		550B348520AA0EFA00E88B48 /* gunicomp.h in Headers */ = {isa = PBXBuildFile; fileRef = 550B348320AA0EFA00E88B48 /* gunicomp.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550B347E20AA0AD000E88B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550B323420AA01ED00E88B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550B323C20AA01ED00E88B48;
+			remoteInfo = libsilc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550B323D20AA01ED00E88B48 /* libsilc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libsilc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B324020AA01ED00E88B48 /* libsilc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libsilc.h; path = libsilc/libsilc.h; sourceTree = SOURCE_ROOT; };
+		550B324120AA01ED00E88B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = libsilc/Info.plist; sourceTree = SOURCE_ROOT; };
+		550B324D20AA023E00E88B48 /* libsilcclient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libsilcclient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550B324F20AA023E00E88B48 /* libsilcclient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libsilcclient.h; path = libsilcclient/libsilcclient.h; sourceTree = SOURCE_ROOT; };
+		550B325020AA023E00E88B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = libsilcclient/Info.plist; sourceTree = SOURCE_ROOT; };
+		550B325520AA02D000E88B48 /* silcmessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmessage.h; sourceTree = "<group>"; };
+		550B325620AA02D000E88B48 /* silcnotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcnotify.h; sourceTree = "<group>"; };
+		550B325720AA02D000E88B48 /* silcstatus.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcstatus.c; sourceTree = "<group>"; };
+		550B325820AA02D000E88B48 /* silcmode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmode.h; sourceTree = "<group>"; };
+		550B325920AA02D000E88B48 /* silcargument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcargument.h; sourceTree = "<group>"; };
+		550B325A20AA02D000E88B48 /* silcnotify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcnotify.c; sourceTree = "<group>"; };
+		550B325B20AA02D000E88B48 /* silcpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcpacket.h; sourceTree = "<group>"; };
+		550B325C20AA02D000E88B48 /* silcargument.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcargument.c; sourceTree = "<group>"; };
+		550B325D20AA02D000E88B48 /* silccommand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silccommand.c; sourceTree = "<group>"; };
+		550B325E20AA02D000E88B48 /* silcpubkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcpubkey.h; sourceTree = "<group>"; };
+		550B325F20AA02D000E88B48 /* silcchannel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcchannel.c; sourceTree = "<group>"; };
+		550B326020AA02D000E88B48 /* silcmessage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcmessage.c; sourceTree = "<group>"; };
+		550B326120AA02D000E88B48 /* silcid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcid.h; sourceTree = "<group>"; };
+		550B326220AA02D000E88B48 /* silcstatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcstatus.h; sourceTree = "<group>"; };
+		550B326320AA02D000E88B48 /* silcauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcauth.c; sourceTree = "<group>"; };
+		550B326420AA02D000E88B48 /* silcchannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcchannel.h; sourceTree = "<group>"; };
+		550B326520AA02D100E88B48 /* silcid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcid.c; sourceTree = "<group>"; };
+		550B326620AA02D100E88B48 /* silcpacket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcpacket.c; sourceTree = "<group>"; };
+		550B326720AA02D100E88B48 /* silcpubkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcpubkey.c; sourceTree = "<group>"; };
+		550B326820AA02D100E88B48 /* silcauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcauth.h; sourceTree = "<group>"; };
+		550B326920AA02D100E88B48 /* silccommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silccommand.h; sourceTree = "<group>"; };
+		550B326A20AA02D100E88B48 /* silcattrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcattrs.c; sourceTree = "<group>"; };
+		550B326B20AA02D100E88B48 /* silcattrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcattrs.h; sourceTree = "<group>"; };
+		550B328320AA032200E88B48 /* silc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = silc.h; path = libsilc/silc.h; sourceTree = SOURCE_ROOT; };
+		550B328420AA032300E88B48 /* silcversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = silcversion.h; path = libsilc/silcversion.h; sourceTree = SOURCE_ROOT; };
+		550B328720AA034F00E88B48 /* silcdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = silcdefs.h; path = libsilc/silcdefs.h; sourceTree = SOURCE_ROOT; };
+		550B328920AA03B800E88B48 /* silcmime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmime.h; sourceTree = "<group>"; };
+		550B328A20AA03B900E88B48 /* silcfsm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcfsm.h; sourceTree = "<group>"; };
+		550B328B20AA03B900E88B48 /* silcsnprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcsnprintf.h; sourceTree = "<group>"; };
+		550B328C20AA03B900E88B48 /* silcutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcutil.h; sourceTree = "<group>"; };
+		550B328D20AA03B900E88B48 /* silctime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silctime.c; sourceTree = "<group>"; };
+		550B328E20AA03B900E88B48 /* silcstack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcstack.h; sourceTree = "<group>"; };
+		550B328F20AA03B900E88B48 /* silcconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcconfig.h; sourceTree = "<group>"; };
+		550B329020AA03B900E88B48 /* silcasync_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcasync_i.h; sourceTree = "<group>"; };
+		550B329120AA03B900E88B48 /* silcfsm_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcfsm_i.h; sourceTree = "<group>"; };
+		550B329220AA03BA00E88B48 /* silcasync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcasync.h; sourceTree = "<group>"; };
+		550B329320AA03BA00E88B48 /* silclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silclist.h; sourceTree = "<group>"; };
+		550B329420AA03BA00E88B48 /* silcsocketstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcsocketstream.c; sourceTree = "<group>"; };
+		550B329520AA03BA00E88B48 /* silcbuffmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcbuffmt.h; sourceTree = "<group>"; };
+		550B329620AA03BA00E88B48 /* silcthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcthread.h; sourceTree = "<group>"; };
+		550B329720AA03BA00E88B48 /* silcbuffmt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcbuffmt.c; sourceTree = "<group>"; };
+		550B329820AA03BA00E88B48 /* silclog_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silclog_i.h; sourceTree = "<group>"; };
+		550B329920AA03BA00E88B48 /* silcschedule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcschedule.c; sourceTree = "<group>"; };
+		550B329A20AA03BA00E88B48 /* silcstrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcstrutil.c; sourceTree = "<group>"; };
+		550B329B20AA03BA00E88B48 /* silcdlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcdlist.h; sourceTree = "<group>"; };
+		550B329C20AA03BA00E88B48 /* silcfdstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcfdstream.h; sourceTree = "<group>"; };
+		550B329D20AA03BB00E88B48 /* silcfileutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcfileutil.c; sourceTree = "<group>"; };
+		550B329E20AA03BB00E88B48 /* silcutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcutil.c; sourceTree = "<group>"; };
+		550B329F20AA03BB00E88B48 /* silcmime_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmime_i.h; sourceTree = "<group>"; };
+		550B32A020AA03BB00E88B48 /* stacktrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stacktrace.c; sourceTree = "<group>"; };
+		550B32A120AA03BB00E88B48 /* silcnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcnet.c; sourceTree = "<group>"; };
+		550B32A220AA03BB00E88B48 /* silcfdstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcfdstream.c; sourceTree = "<group>"; };
+		550B32A320AA03BB00E88B48 /* silcnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcnet.h; sourceTree = "<group>"; };
+		550B32A420AA03BB00E88B48 /* silcsocketstream_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcsocketstream_i.h; sourceTree = "<group>"; };
+		550B32A520AA03BB00E88B48 /* silcstack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcstack.c; sourceTree = "<group>"; };
+		550B32A620AA03BB00E88B48 /* silcstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcstream.h; sourceTree = "<group>"; };
+		550B32A720AA03BC00E88B48 /* silcmemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmemory.h; sourceTree = "<group>"; };
+		550B32A820AA03BC00E88B48 /* silcschedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcschedule.h; sourceTree = "<group>"; };
+		550B32A920AA03BC00E88B48 /* silcschedule_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcschedule_i.h; sourceTree = "<group>"; };
+		550B32AA20AA03BC00E88B48 /* silcstack_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcstack_i.h; sourceTree = "<group>"; };
+		550B32AB20AA03BC00E88B48 /* silcstrutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcstrutil.h; sourceTree = "<group>"; };
+		550B32AC20AA03BC00E88B48 /* silcmime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcmime.c; sourceTree = "<group>"; };
+		550B32AD20AA03BC00E88B48 /* silclog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silclog.h; sourceTree = "<group>"; };
+		550B32AE20AA03BC00E88B48 /* silcsnprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcsnprintf.c; sourceTree = "<group>"; };
+		550B32AF20AA03BC00E88B48 /* silcsocketstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcsocketstream.h; sourceTree = "<group>"; };
+		550B32B020AA03BC00E88B48 /* silcstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcstream.c; sourceTree = "<group>"; };
+		550B32B120AA03BD00E88B48 /* silctime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silctime.h; sourceTree = "<group>"; };
+		550B32B220AA03BD00E88B48 /* silcstringprep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcstringprep.c; sourceTree = "<group>"; };
+		550B32B320AA03BD00E88B48 /* silcfsm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcfsm.c; sourceTree = "<group>"; };
+		550B32B420AA03BD00E88B48 /* silcmutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmutex.h; sourceTree = "<group>"; };
+		550B32B520AA03BD00E88B48 /* silcutf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcutf8.h; sourceTree = "<group>"; };
+		550B32B620AA03BD00E88B48 /* silchashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silchashtable.h; sourceTree = "<group>"; };
+		550B32B720AA03BD00E88B48 /* silclog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silclog.c; sourceTree = "<group>"; };
+		550B32B820AA03BD00E88B48 /* silcstringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcstringprep.h; sourceTree = "<group>"; };
+		550B32B920AA03BD00E88B48 /* silcfileutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcfileutil.h; sourceTree = "<group>"; };
+		550B32BA20AA03BD00E88B48 /* silcutf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcutf8.c; sourceTree = "<group>"; };
+		550B32BB20AA03BD00E88B48 /* silcconfig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcconfig.c; sourceTree = "<group>"; };
+		550B32BC20AA03BE00E88B48 /* stacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stacktrace.h; sourceTree = "<group>"; };
+		550B32BD20AA03BE00E88B48 /* silchashtable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silchashtable.c; sourceTree = "<group>"; };
+		550B32BE20AA03BE00E88B48 /* silcmemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcmemory.c; sourceTree = "<group>"; };
+		550B32BF20AA03BE00E88B48 /* silcbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcbuffer.h; sourceTree = "<group>"; };
+		550B32C020AA03BE00E88B48 /* silcnet_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcnet_i.h; sourceTree = "<group>"; };
+		550B32C120AA03BE00E88B48 /* silcasync.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcasync.c; sourceTree = "<group>"; };
+		550B32C220AA03BE00E88B48 /* silcatomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcatomic.h; sourceTree = "<group>"; };
+		550B32C320AA03BE00E88B48 /* silccond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silccond.h; sourceTree = "<group>"; };
+		550B32C420AA03BE00E88B48 /* silctypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silctypes.h; sourceTree = "<group>"; };
+		550B330820AA041200E88B48 /* silcunixthread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcunixthread.c; sourceTree = "<group>"; };
+		550B330D20AA041200E88B48 /* silcunixsocketstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcunixsocketstream.c; sourceTree = "<group>"; };
+		550B331220AA041200E88B48 /* silcunixutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcunixutil.c; sourceTree = "<group>"; };
+		550B331420AA041200E88B48 /* silcunixnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcunixnet.c; sourceTree = "<group>"; };
+		550B331A20AA041200E88B48 /* silcunixschedule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcunixschedule.c; sourceTree = "<group>"; };
+		550B333120AA045A00E88B48 /* silcprimegen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcprimegen.c; sourceTree = "<group>"; };
+		550B333220AA045A00E88B48 /* mp_gmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_gmp.c; sourceTree = "<group>"; };
+		550B333320AA045A00E88B48 /* tma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tma.h; sourceTree = "<group>"; };
+		550B333420AA045A00E88B48 /* tma_superclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tma_superclass.h; sourceTree = "<group>"; };
+		550B333620AA045A00E88B48 /* mpbin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mpbin.c; sourceTree = "<group>"; };
+		550B333720AA045A00E88B48 /* silcmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmath.h; sourceTree = "<group>"; };
+		550B333820AA045A00E88B48 /* silcmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmp.h; sourceTree = "<group>"; };
+		550B333920AA045A00E88B48 /* mp_tma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_tma.c; sourceTree = "<group>"; };
+		550B333B20AA045A00E88B48 /* tma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tma.c; sourceTree = "<group>"; };
+		550B333C20AA045A00E88B48 /* mp_gmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp_gmp.h; sourceTree = "<group>"; };
+		550B333D20AA045A00E88B48 /* modinv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = modinv.c; sourceTree = "<group>"; };
+		550B333E20AA045A00E88B48 /* tma_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tma_class.h; sourceTree = "<group>"; };
+		550B334020AA045A00E88B48 /* mp_tma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp_tma.h; sourceTree = "<group>"; };
+		550B335320AA04C600E88B48 /* ciphers_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ciphers_def.h; sourceTree = "<group>"; };
+		550B335420AA04C600E88B48 /* twofish_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twofish_internal.h; sourceTree = "<group>"; };
+		550B335520AA04C600E88B48 /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		550B335620AA04C600E88B48 /* silcrng.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcrng.c; sourceTree = "<group>"; };
+		550B335720AA04C600E88B48 /* blowfish_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish_internal.h; sourceTree = "<group>"; };
+		550B335820AA04C600E88B48 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		550B335920AA04C600E88B48 /* silcpkcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcpkcs.h; sourceTree = "<group>"; };
+		550B335A20AA04C600E88B48 /* silchash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silchash.h; sourceTree = "<group>"; };
+		550B335B20AA04C600E88B48 /* silcpk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcpk.h; sourceTree = "<group>"; };
+		550B335D20AA04C600E88B48 /* twofish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = twofish.c; sourceTree = "<group>"; };
+		550B335E20AA04C600E88B48 /* none.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = none.h; sourceTree = "<group>"; };
+		550B335F20AA04C600E88B48 /* rc5_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc5_internal.h; sourceTree = "<group>"; };
+		550B336020AA04C600E88B48 /* cast_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast_internal.h; sourceTree = "<group>"; };
+		550B336120AA04C600E88B48 /* silcpkcs1_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcpkcs1_i.h; sourceTree = "<group>"; };
+		550B336420AA04C600E88B48 /* rsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rsa.c; sourceTree = "<group>"; };
+		550B336520AA04C600E88B48 /* silccipher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silccipher.c; sourceTree = "<group>"; };
+		550B336620AA04C600E88B48 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		550B336720AA04C600E88B48 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		550B336820AA04C600E88B48 /* sha256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
+		550B336920AA04C600E88B48 /* silcpkcs1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcpkcs1.h; sourceTree = "<group>"; };
+		550B336A20AA04C600E88B48 /* silchmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silchmac.h; sourceTree = "<group>"; };
+		550B336B20AA04C600E88B48 /* rc5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc5.h; sourceTree = "<group>"; };
+		550B336C20AA04C600E88B48 /* rijndael_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rijndael_internal.h; sourceTree = "<group>"; };
+		550B336E20AA04C600E88B48 /* silchash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silchash.c; sourceTree = "<group>"; };
+		550B336F20AA04C600E88B48 /* silcpkcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcpkcs.c; sourceTree = "<group>"; };
+		550B337020AA04C600E88B48 /* blowfish.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blowfish.c; sourceTree = "<group>"; };
+		550B337120AA04C600E88B48 /* silcrng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcrng.h; sourceTree = "<group>"; };
+		550B337220AA04C600E88B48 /* silcpk_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcpk_i.h; sourceTree = "<group>"; };
+		550B337320AA04C600E88B48 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		550B337420AA04C600E88B48 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		550B337520AA04C600E88B48 /* twofish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twofish.h; sourceTree = "<group>"; };
+		550B337620AA04C600E88B48 /* none.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = none.c; sourceTree = "<group>"; };
+		550B337720AA04C600E88B48 /* silcpk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcpk.c; sourceTree = "<group>"; };
+		550B337820AA04C600E88B48 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		550B337920AA04C600E88B48 /* sha256_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha256_internal.h; sourceTree = "<group>"; };
+		550B337A20AA04C600E88B48 /* ciphers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ciphers.h; sourceTree = "<group>"; };
+		550B337B20AA04C600E88B48 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		550B337C20AA04C600E88B48 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		550B337D20AA04C600E88B48 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		550B337E20AA04C600E88B48 /* sha1_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1_internal.h; sourceTree = "<group>"; };
+		550B337F20AA04C600E88B48 /* silccipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silccipher.h; sourceTree = "<group>"; };
+		550B338020AA04C600E88B48 /* md5_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5_internal.h; sourceTree = "<group>"; };
+		550B338120AA04C600E88B48 /* silcdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcdh.h; sourceTree = "<group>"; };
+		550B338320AA04C600E88B48 /* silchmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silchmac.c; sourceTree = "<group>"; };
+		550B338420AA04C600E88B48 /* silcpkcs1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcpkcs1.c; sourceTree = "<group>"; };
+		550B33B920AA053100E88B48 /* silcvcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcvcard.h; sourceTree = "<group>"; };
+		550B33BC20AA053100E88B48 /* silcvcard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcvcard.c; sourceTree = "<group>"; };
+		550B33C420AA055400E88B48 /* silcber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcber.c; sourceTree = "<group>"; };
+		550B33C620AA055400E88B48 /* silcasn1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcasn1.c; sourceTree = "<group>"; };
+		550B33C820AA055400E88B48 /* silcasn1_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcasn1_i.h; sourceTree = "<group>"; };
+		550B33C920AA055400E88B48 /* silcber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcber.h; sourceTree = "<group>"; };
+		550B33CA20AA055400E88B48 /* silcasn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcasn1.h; sourceTree = "<group>"; };
+		550B33CB20AA055400E88B48 /* silcasn1_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcasn1_decode.c; sourceTree = "<group>"; };
+		550B33CC20AA055400E88B48 /* silcasn1_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcasn1_encode.c; sourceTree = "<group>"; };
+		550B33D820AA05D200E88B48 /* silcmessage_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcmessage_i.h; sourceTree = "<group>"; };
+		550B33DC20AA05F000E88B48 /* silcapputil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcapputil.h; sourceTree = "<group>"; };
+		550B33DF20AA05F000E88B48 /* silcidcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcidcache.c; sourceTree = "<group>"; };
+		550B33E220AA05F000E88B48 /* silcapputil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcapputil.c; sourceTree = "<group>"; };
+		550B33E920AA05F000E88B48 /* silcidcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcidcache.h; sourceTree = "<group>"; };
+		550B33F920AA061900E88B48 /* silcskr_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcskr_i.h; sourceTree = "<group>"; };
+		550B33FB20AA061900E88B48 /* silcskr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcskr.c; sourceTree = "<group>"; };
+		550B33FD20AA061900E88B48 /* silcskr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcskr.h; sourceTree = "<group>"; };
+		550B340620AA063D00E88B48 /* groups_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = groups_internal.h; sourceTree = "<group>"; };
+		550B340720AA063D00E88B48 /* silcske_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcske_i.h; sourceTree = "<group>"; };
+		550B340820AA063D00E88B48 /* silcske.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcske.h; sourceTree = "<group>"; };
+		550B340920AA063D00E88B48 /* silcske_payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcske_payload.h; sourceTree = "<group>"; };
+		550B340B20AA063D00E88B48 /* groups.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = groups.c; sourceTree = "<group>"; };
+		550B340C20AA063D00E88B48 /* silcconnauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcconnauth.c; sourceTree = "<group>"; };
+		550B340E20AA063D00E88B48 /* silcske.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = silcske.c; sourceTree = "<group>"; };
+		550B340F20AA063D00E88B48 /* payload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = payload.c; sourceTree = "<group>"; };
+		550B341120AA063D00E88B48 /* silcske_groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcske_groups.h; sourceTree = "<group>"; };
+		550B341220AA063D00E88B48 /* silcconnauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcconnauth.h; sourceTree = "<group>"; };
+		550B342120AA065E00E88B48 /* silcsftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcsftp.h; sourceTree = "<group>"; };
+		550B342220AA065E00E88B48 /* sftp_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sftp_util.c; sourceTree = "<group>"; };
+		550B342420AA065E00E88B48 /* sftp_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sftp_server.c; sourceTree = "<group>"; };
+		550B342620AA065E00E88B48 /* sftp_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sftp_client.c; sourceTree = "<group>"; };
+		550B342720AA065E00E88B48 /* sftp_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sftp_util.h; sourceTree = "<group>"; };
+		550B342920AA065E00E88B48 /* silcsftp_fs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcsftp_fs.h; sourceTree = "<group>"; };
+		550B342A20AA065E00E88B48 /* sftp_fs_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sftp_fs_memory.c; sourceTree = "<group>"; };
+		550B343520AA06ED00E88B48 /* silcdistdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = silcdistdefs.h; path = libsilc/silcdistdefs.h; sourceTree = SOURCE_ROOT; };
+		550B343820AA071D00E88B48 /* stringprep.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringprep.c; sourceTree = "<group>"; };
+		550B343920AA071D00E88B48 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
+		550B343E20AA07CD00E88B48 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		550B344020AA080600E88B48 /* rfc3454.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rfc3454.c; sourceTree = "<group>"; };
+		550B344220AA082E00E88B48 /* nfkc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nfkc.c; sourceTree = "<group>"; };
+		550B344420AA09D100E88B48 /* client_notify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_notify.c; sourceTree = "<group>"; };
+		550B344520AA09D100E88B48 /* client_register.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_register.c; sourceTree = "<group>"; };
+		550B344620AA09D100E88B48 /* client_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_internal.h; sourceTree = "<group>"; };
+		550B344720AA09D100E88B48 /* client_notify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_notify.h; sourceTree = "<group>"; };
+		550B344820AA09D100E88B48 /* client_attrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_attrs.c; sourceTree = "<group>"; };
+		550B344920AA09D100E88B48 /* client_entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_entry.h; sourceTree = "<group>"; };
+		550B344A20AA09D100E88B48 /* command_reply.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = command_reply.c; sourceTree = "<group>"; };
+		550B344B20AA09D100E88B48 /* command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = command.h; sourceTree = "<group>"; };
+		550B344C20AA09D100E88B48 /* client_connect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_connect.h; sourceTree = "<group>"; };
+		550B344D20AA09D100E88B48 /* client_channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_channel.h; sourceTree = "<group>"; };
+		550B344E20AA09D200E88B48 /* client_listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_listener.h; sourceTree = "<group>"; };
+		550B344F20AA09D200E88B48 /* client_entry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_entry.c; sourceTree = "<group>"; };
+		550B345020AA09D200E88B48 /* client_ftp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_ftp.c; sourceTree = "<group>"; };
+		550B345120AA09D200E88B48 /* client_channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_channel.c; sourceTree = "<group>"; };
+		550B345220AA09D200E88B48 /* client_prvmsg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_prvmsg.c; sourceTree = "<group>"; };
+		550B345320AA09D200E88B48 /* client_register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_register.h; sourceTree = "<group>"; };
+		550B345420AA09D200E88B48 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		550B345520AA09D200E88B48 /* client_ftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_ftp.h; sourceTree = "<group>"; };
+		550B345620AA09D200E88B48 /* client_keyagr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_keyagr.c; sourceTree = "<group>"; };
+		550B345720AA09D200E88B48 /* command_reply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = command_reply.h; sourceTree = "<group>"; };
+		550B345920AA09D200E88B48 /* silcclient_entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcclient_entry.h; sourceTree = "<group>"; };
+		550B345A20AA09D200E88B48 /* client_keyagr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_keyagr.h; sourceTree = "<group>"; };
+		550B345B20AA09D200E88B48 /* client_connect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_connect.c; sourceTree = "<group>"; };
+		550B345C20AA09D200E88B48 /* silcclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = silcclient.h; sourceTree = "<group>"; };
+		550B345D20AA09D300E88B48 /* client_listener.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client_listener.c; sourceTree = "<group>"; };
+		550B345E20AA09D300E88B48 /* client_prvmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client_prvmsg.h; sourceTree = "<group>"; };
+		550B345F20AA09D300E88B48 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		550B346020AA09D300E88B48 /* command.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = command.c; sourceTree = "<group>"; };
+		550B348120AA0E9900E88B48 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = libsilcclient/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		550B348220AA0EFA00E88B48 /* gunidecomp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gunidecomp.h; sourceTree = "<group>"; };
+		550B348320AA0EFA00E88B48 /* gunicomp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gunicomp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550B323920AA01ED00E88B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B343F20AA07CD00E88B48 /* libiconv.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B324920AA023E00E88B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B348020AA0AD500E88B48 /* libsilc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550B323320AA01ED00E88B48 = {
+			isa = PBXGroup;
+			children = (
+				550B323F20AA01ED00E88B48 /* libsilc */,
+				550B324E20AA023E00E88B48 /* libsilcclient */,
+				550B323E20AA01ED00E88B48 /* Products */,
+				550B343D20AA07CD00E88B48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		550B323E20AA01ED00E88B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550B323D20AA01ED00E88B48 /* libsilc.framework */,
+				550B324D20AA023E00E88B48 /* libsilcclient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550B323F20AA01ED00E88B48 /* libsilc */ = {
+			isa = PBXGroup;
+			children = (
+				550B343720AA070E00E88B48 /* contrib */,
+				550B342020AA065E00E88B48 /* silcsftp */,
+				550B340520AA063D00E88B48 /* silcske */,
+				550B33F820AA061900E88B48 /* silcskr */,
+				550B33DA20AA05F000E88B48 /* silcapputil */,
+				550B33C320AA055400E88B48 /* silcasn1 */,
+				550B33B820AA053100E88B48 /* silcvcard */,
+				550B335220AA04C600E88B48 /* silccrypt */,
+				550B333020AA045A00E88B48 /* silcmath */,
+				550B335120AA048F00E88B48 /* silccore */,
+				550B330120AA03DD00E88B48 /* silcutil */,
+				550B328720AA034F00E88B48 /* silcdefs.h */,
+				550B343520AA06ED00E88B48 /* silcdistdefs.h */,
+				550B328320AA032200E88B48 /* silc.h */,
+				550B328420AA032300E88B48 /* silcversion.h */,
+				550B324120AA01ED00E88B48 /* Info.plist */,
+				550B324020AA01ED00E88B48 /* libsilc.h */,
+			);
+			name = libsilc;
+			path = ../lib;
+			sourceTree = "<group>";
+		};
+		550B324E20AA023E00E88B48 /* libsilcclient */ = {
+			isa = PBXGroup;
+			children = (
+				550B344820AA09D100E88B48 /* client_attrs.c */,
+				550B345120AA09D200E88B48 /* client_channel.c */,
+				550B344D20AA09D100E88B48 /* client_channel.h */,
+				550B345B20AA09D200E88B48 /* client_connect.c */,
+				550B344C20AA09D100E88B48 /* client_connect.h */,
+				550B344F20AA09D200E88B48 /* client_entry.c */,
+				550B344920AA09D100E88B48 /* client_entry.h */,
+				550B345020AA09D200E88B48 /* client_ftp.c */,
+				550B345520AA09D200E88B48 /* client_ftp.h */,
+				550B344620AA09D100E88B48 /* client_internal.h */,
+				550B345620AA09D200E88B48 /* client_keyagr.c */,
+				550B345A20AA09D200E88B48 /* client_keyagr.h */,
+				550B345D20AA09D300E88B48 /* client_listener.c */,
+				550B344E20AA09D200E88B48 /* client_listener.h */,
+				550B344420AA09D100E88B48 /* client_notify.c */,
+				550B344720AA09D100E88B48 /* client_notify.h */,
+				550B345220AA09D200E88B48 /* client_prvmsg.c */,
+				550B345E20AA09D300E88B48 /* client_prvmsg.h */,
+				550B344520AA09D100E88B48 /* client_register.c */,
+				550B345320AA09D200E88B48 /* client_register.h */,
+				550B345420AA09D200E88B48 /* client.c */,
+				550B345F20AA09D300E88B48 /* client.h */,
+				550B344A20AA09D100E88B48 /* command_reply.c */,
+				550B345720AA09D200E88B48 /* command_reply.h */,
+				550B346020AA09D300E88B48 /* command.c */,
+				550B344B20AA09D100E88B48 /* command.h */,
+				550B325020AA023E00E88B48 /* Info.plist */,
+				550B324F20AA023E00E88B48 /* libsilcclient.h */,
+				550B345920AA09D200E88B48 /* silcclient_entry.h */,
+				550B345C20AA09D200E88B48 /* silcclient.h */,
+				550B348120AA0E9900E88B48 /* PrefixHeader.pch */,
+			);
+			name = libsilcclient;
+			path = ../lib/silcclient;
+			sourceTree = "<group>";
+		};
+		550B330120AA03DD00E88B48 /* silcutil */ = {
+			isa = PBXGroup;
+			children = (
+				550B330420AA041200E88B48 /* unix */,
+				550B329020AA03B900E88B48 /* silcasync_i.h */,
+				550B32C120AA03BE00E88B48 /* silcasync.c */,
+				550B329220AA03BA00E88B48 /* silcasync.h */,
+				550B32C220AA03BE00E88B48 /* silcatomic.h */,
+				550B32BF20AA03BE00E88B48 /* silcbuffer.h */,
+				550B329720AA03BA00E88B48 /* silcbuffmt.c */,
+				550B329520AA03BA00E88B48 /* silcbuffmt.h */,
+				550B32C320AA03BE00E88B48 /* silccond.h */,
+				550B32BB20AA03BD00E88B48 /* silcconfig.c */,
+				550B328F20AA03B900E88B48 /* silcconfig.h */,
+				550B329B20AA03BA00E88B48 /* silcdlist.h */,
+				550B32A220AA03BB00E88B48 /* silcfdstream.c */,
+				550B329C20AA03BA00E88B48 /* silcfdstream.h */,
+				550B329D20AA03BB00E88B48 /* silcfileutil.c */,
+				550B32B920AA03BD00E88B48 /* silcfileutil.h */,
+				550B329120AA03B900E88B48 /* silcfsm_i.h */,
+				550B32B320AA03BD00E88B48 /* silcfsm.c */,
+				550B328A20AA03B900E88B48 /* silcfsm.h */,
+				550B32BD20AA03BE00E88B48 /* silchashtable.c */,
+				550B32B620AA03BD00E88B48 /* silchashtable.h */,
+				550B329320AA03BA00E88B48 /* silclist.h */,
+				550B329820AA03BA00E88B48 /* silclog_i.h */,
+				550B32B720AA03BD00E88B48 /* silclog.c */,
+				550B32AD20AA03BC00E88B48 /* silclog.h */,
+				550B32BE20AA03BE00E88B48 /* silcmemory.c */,
+				550B32A720AA03BC00E88B48 /* silcmemory.h */,
+				550B329F20AA03BB00E88B48 /* silcmime_i.h */,
+				550B32AC20AA03BC00E88B48 /* silcmime.c */,
+				550B328920AA03B800E88B48 /* silcmime.h */,
+				550B32B420AA03BD00E88B48 /* silcmutex.h */,
+				550B32C020AA03BE00E88B48 /* silcnet_i.h */,
+				550B32A120AA03BB00E88B48 /* silcnet.c */,
+				550B32A320AA03BB00E88B48 /* silcnet.h */,
+				550B32A920AA03BC00E88B48 /* silcschedule_i.h */,
+				550B329920AA03BA00E88B48 /* silcschedule.c */,
+				550B32A820AA03BC00E88B48 /* silcschedule.h */,
+				550B32AE20AA03BC00E88B48 /* silcsnprintf.c */,
+				550B328B20AA03B900E88B48 /* silcsnprintf.h */,
+				550B32A420AA03BB00E88B48 /* silcsocketstream_i.h */,
+				550B329420AA03BA00E88B48 /* silcsocketstream.c */,
+				550B32AF20AA03BC00E88B48 /* silcsocketstream.h */,
+				550B32AA20AA03BC00E88B48 /* silcstack_i.h */,
+				550B32A520AA03BB00E88B48 /* silcstack.c */,
+				550B328E20AA03B900E88B48 /* silcstack.h */,
+				550B32B020AA03BC00E88B48 /* silcstream.c */,
+				550B32A620AA03BB00E88B48 /* silcstream.h */,
+				550B32B220AA03BD00E88B48 /* silcstringprep.c */,
+				550B32B820AA03BD00E88B48 /* silcstringprep.h */,
+				550B329A20AA03BA00E88B48 /* silcstrutil.c */,
+				550B32AB20AA03BC00E88B48 /* silcstrutil.h */,
+				550B329620AA03BA00E88B48 /* silcthread.h */,
+				550B328D20AA03B900E88B48 /* silctime.c */,
+				550B32B120AA03BD00E88B48 /* silctime.h */,
+				550B32C420AA03BE00E88B48 /* silctypes.h */,
+				550B32BA20AA03BD00E88B48 /* silcutf8.c */,
+				550B32B520AA03BD00E88B48 /* silcutf8.h */,
+				550B329E20AA03BB00E88B48 /* silcutil.c */,
+				550B328C20AA03B900E88B48 /* silcutil.h */,
+				550B32A020AA03BB00E88B48 /* stacktrace.c */,
+				550B32BC20AA03BE00E88B48 /* stacktrace.h */,
+			);
+			path = silcutil;
+			sourceTree = "<group>";
+		};
+		550B330420AA041200E88B48 /* unix */ = {
+			isa = PBXGroup;
+			children = (
+				550B331420AA041200E88B48 /* silcunixnet.c */,
+				550B331A20AA041200E88B48 /* silcunixschedule.c */,
+				550B330D20AA041200E88B48 /* silcunixsocketstream.c */,
+				550B330820AA041200E88B48 /* silcunixthread.c */,
+				550B331220AA041200E88B48 /* silcunixutil.c */,
+			);
+			path = unix;
+			sourceTree = "<group>";
+		};
+		550B333020AA045A00E88B48 /* silcmath */ = {
+			isa = PBXGroup;
+			children = (
+				550B333D20AA045A00E88B48 /* modinv.c */,
+				550B333220AA045A00E88B48 /* mp_gmp.c */,
+				550B333C20AA045A00E88B48 /* mp_gmp.h */,
+				550B333920AA045A00E88B48 /* mp_tma.c */,
+				550B334020AA045A00E88B48 /* mp_tma.h */,
+				550B333620AA045A00E88B48 /* mpbin.c */,
+				550B333720AA045A00E88B48 /* silcmath.h */,
+				550B333820AA045A00E88B48 /* silcmp.h */,
+				550B333120AA045A00E88B48 /* silcprimegen.c */,
+				550B333E20AA045A00E88B48 /* tma_class.h */,
+				550B333420AA045A00E88B48 /* tma_superclass.h */,
+				550B333B20AA045A00E88B48 /* tma.c */,
+				550B333320AA045A00E88B48 /* tma.h */,
+			);
+			path = silcmath;
+			sourceTree = "<group>";
+		};
+		550B335120AA048F00E88B48 /* silccore */ = {
+			isa = PBXGroup;
+			children = (
+				550B33D820AA05D200E88B48 /* silcmessage_i.h */,
+				550B325C20AA02D000E88B48 /* silcargument.c */,
+				550B325920AA02D000E88B48 /* silcargument.h */,
+				550B326A20AA02D100E88B48 /* silcattrs.c */,
+				550B326B20AA02D100E88B48 /* silcattrs.h */,
+				550B326320AA02D000E88B48 /* silcauth.c */,
+				550B326820AA02D100E88B48 /* silcauth.h */,
+				550B325F20AA02D000E88B48 /* silcchannel.c */,
+				550B326420AA02D000E88B48 /* silcchannel.h */,
+				550B325D20AA02D000E88B48 /* silccommand.c */,
+				550B326920AA02D100E88B48 /* silccommand.h */,
+				550B326520AA02D100E88B48 /* silcid.c */,
+				550B326120AA02D000E88B48 /* silcid.h */,
+				550B326020AA02D000E88B48 /* silcmessage.c */,
+				550B325520AA02D000E88B48 /* silcmessage.h */,
+				550B325820AA02D000E88B48 /* silcmode.h */,
+				550B325A20AA02D000E88B48 /* silcnotify.c */,
+				550B325620AA02D000E88B48 /* silcnotify.h */,
+				550B326620AA02D100E88B48 /* silcpacket.c */,
+				550B325B20AA02D000E88B48 /* silcpacket.h */,
+				550B326720AA02D100E88B48 /* silcpubkey.c */,
+				550B325E20AA02D000E88B48 /* silcpubkey.h */,
+				550B325720AA02D000E88B48 /* silcstatus.c */,
+				550B326220AA02D000E88B48 /* silcstatus.h */,
+			);
+			path = silccore;
+			sourceTree = "<group>";
+		};
+		550B335220AA04C600E88B48 /* silccrypt */ = {
+			isa = PBXGroup;
+			children = (
+				550B335520AA04C600E88B48 /* aes.c */,
+				550B337320AA04C600E88B48 /* aes.h */,
+				550B335720AA04C600E88B48 /* blowfish_internal.h */,
+				550B337020AA04C600E88B48 /* blowfish.c */,
+				550B335820AA04C600E88B48 /* blowfish.h */,
+				550B336020AA04C600E88B48 /* cast_internal.h */,
+				550B337420AA04C600E88B48 /* cast.h */,
+				550B335320AA04C600E88B48 /* ciphers_def.h */,
+				550B337A20AA04C600E88B48 /* ciphers.h */,
+				550B338020AA04C600E88B48 /* md5_internal.h */,
+				550B337C20AA04C600E88B48 /* md5.c */,
+				550B336620AA04C600E88B48 /* md5.h */,
+				550B337620AA04C600E88B48 /* none.c */,
+				550B335E20AA04C600E88B48 /* none.h */,
+				550B335F20AA04C600E88B48 /* rc5_internal.h */,
+				550B336B20AA04C600E88B48 /* rc5.h */,
+				550B336C20AA04C600E88B48 /* rijndael_internal.h */,
+				550B336420AA04C600E88B48 /* rsa.c */,
+				550B337D20AA04C600E88B48 /* rsa.h */,
+				550B337E20AA04C600E88B48 /* sha1_internal.h */,
+				550B336720AA04C600E88B48 /* sha1.c */,
+				550B337820AA04C600E88B48 /* sha1.h */,
+				550B337920AA04C600E88B48 /* sha256_internal.h */,
+				550B337B20AA04C600E88B48 /* sha256.c */,
+				550B336820AA04C600E88B48 /* sha256.h */,
+				550B336520AA04C600E88B48 /* silccipher.c */,
+				550B337F20AA04C600E88B48 /* silccipher.h */,
+				550B338120AA04C600E88B48 /* silcdh.h */,
+				550B336E20AA04C600E88B48 /* silchash.c */,
+				550B335A20AA04C600E88B48 /* silchash.h */,
+				550B338320AA04C600E88B48 /* silchmac.c */,
+				550B336A20AA04C600E88B48 /* silchmac.h */,
+				550B337220AA04C600E88B48 /* silcpk_i.h */,
+				550B337720AA04C600E88B48 /* silcpk.c */,
+				550B335B20AA04C600E88B48 /* silcpk.h */,
+				550B336F20AA04C600E88B48 /* silcpkcs.c */,
+				550B335920AA04C600E88B48 /* silcpkcs.h */,
+				550B336120AA04C600E88B48 /* silcpkcs1_i.h */,
+				550B338420AA04C600E88B48 /* silcpkcs1.c */,
+				550B336920AA04C600E88B48 /* silcpkcs1.h */,
+				550B335620AA04C600E88B48 /* silcrng.c */,
+				550B337120AA04C600E88B48 /* silcrng.h */,
+				550B335420AA04C600E88B48 /* twofish_internal.h */,
+				550B335D20AA04C600E88B48 /* twofish.c */,
+				550B337520AA04C600E88B48 /* twofish.h */,
+			);
+			path = silccrypt;
+			sourceTree = "<group>";
+		};
+		550B33B820AA053100E88B48 /* silcvcard */ = {
+			isa = PBXGroup;
+			children = (
+				550B33B920AA053100E88B48 /* silcvcard.h */,
+				550B33BC20AA053100E88B48 /* silcvcard.c */,
+			);
+			path = silcvcard;
+			sourceTree = "<group>";
+		};
+		550B33C320AA055400E88B48 /* silcasn1 */ = {
+			isa = PBXGroup;
+			children = (
+				550B33C420AA055400E88B48 /* silcber.c */,
+				550B33C620AA055400E88B48 /* silcasn1.c */,
+				550B33C820AA055400E88B48 /* silcasn1_i.h */,
+				550B33C920AA055400E88B48 /* silcber.h */,
+				550B33CA20AA055400E88B48 /* silcasn1.h */,
+				550B33CB20AA055400E88B48 /* silcasn1_decode.c */,
+				550B33CC20AA055400E88B48 /* silcasn1_encode.c */,
+			);
+			path = silcasn1;
+			sourceTree = "<group>";
+		};
+		550B33DA20AA05F000E88B48 /* silcapputil */ = {
+			isa = PBXGroup;
+			children = (
+				550B33E220AA05F000E88B48 /* silcapputil.c */,
+				550B33DC20AA05F000E88B48 /* silcapputil.h */,
+				550B33DF20AA05F000E88B48 /* silcidcache.c */,
+				550B33E920AA05F000E88B48 /* silcidcache.h */,
+			);
+			path = silcapputil;
+			sourceTree = "<group>";
+		};
+		550B33F820AA061900E88B48 /* silcskr */ = {
+			isa = PBXGroup;
+			children = (
+				550B33F920AA061900E88B48 /* silcskr_i.h */,
+				550B33FB20AA061900E88B48 /* silcskr.c */,
+				550B33FD20AA061900E88B48 /* silcskr.h */,
+			);
+			path = silcskr;
+			sourceTree = "<group>";
+		};
+		550B340520AA063D00E88B48 /* silcske */ = {
+			isa = PBXGroup;
+			children = (
+				550B340620AA063D00E88B48 /* groups_internal.h */,
+				550B340B20AA063D00E88B48 /* groups.c */,
+				550B340F20AA063D00E88B48 /* payload.c */,
+				550B340C20AA063D00E88B48 /* silcconnauth.c */,
+				550B341220AA063D00E88B48 /* silcconnauth.h */,
+				550B341120AA063D00E88B48 /* silcske_groups.h */,
+				550B340720AA063D00E88B48 /* silcske_i.h */,
+				550B340920AA063D00E88B48 /* silcske_payload.h */,
+				550B340E20AA063D00E88B48 /* silcske.c */,
+				550B340820AA063D00E88B48 /* silcske.h */,
+			);
+			path = silcske;
+			sourceTree = "<group>";
+		};
+		550B342020AA065E00E88B48 /* silcsftp */ = {
+			isa = PBXGroup;
+			children = (
+				550B342620AA065E00E88B48 /* sftp_client.c */,
+				550B342A20AA065E00E88B48 /* sftp_fs_memory.c */,
+				550B342420AA065E00E88B48 /* sftp_server.c */,
+				550B342220AA065E00E88B48 /* sftp_util.c */,
+				550B342720AA065E00E88B48 /* sftp_util.h */,
+				550B342920AA065E00E88B48 /* silcsftp_fs.h */,
+				550B342120AA065E00E88B48 /* silcsftp.h */,
+			);
+			path = silcsftp;
+			sourceTree = "<group>";
+		};
+		550B343720AA070E00E88B48 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				550B348320AA0EFA00E88B48 /* gunicomp.h */,
+				550B348220AA0EFA00E88B48 /* gunidecomp.h */,
+				550B344220AA082E00E88B48 /* nfkc.c */,
+				550B344020AA080600E88B48 /* rfc3454.c */,
+				550B343820AA071D00E88B48 /* stringprep.c */,
+				550B343920AA071D00E88B48 /* stringprep.h */,
+			);
+			path = contrib;
+			sourceTree = "<group>";
+		};
+		550B343D20AA07CD00E88B48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				550B343E20AA07CD00E88B48 /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		550B323A20AA01ED00E88B48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B339320AA04C600E88B48 /* silcpkcs1_i.h in Headers */,
+				550B32D420AA03BE00E88B48 /* silclog_i.h in Headers */,
+				550B33D920AA05D200E88B48 /* silcmessage_i.h in Headers */,
+				550B33FF20AA061900E88B48 /* silcskr_i.h in Headers */,
+				550B32E020AA03BE00E88B48 /* silcsocketstream_i.h in Headers */,
+				550B32E520AA03BE00E88B48 /* silcschedule_i.h in Headers */,
+				550B32FC20AA03BE00E88B48 /* silcnet_i.h in Headers */,
+				550B32CC20AA03BE00E88B48 /* silcasync_i.h in Headers */,
+				550B33D220AA055400E88B48 /* silcasn1_i.h in Headers */,
+				550B341420AA063D00E88B48 /* silcske_i.h in Headers */,
+				550B32CD20AA03BE00E88B48 /* silcfsm_i.h in Headers */,
+				550B32DB20AA03BE00E88B48 /* silcmime_i.h in Headers */,
+				550B33A420AA04C600E88B48 /* silcpk_i.h in Headers */,
+				550B32E620AA03BE00E88B48 /* silcstack_i.h in Headers */,
+				550B33BE20AA053100E88B48 /* silcvcard.h in Headers */,
+				550B33F720AA05F000E88B48 /* silcidcache.h in Headers */,
+				550B343320AA065E00E88B48 /* silcsftp_fs.h in Headers */,
+				550B33EB20AA05F000E88B48 /* silcapputil.h in Headers */,
+				550B339B20AA04C600E88B48 /* silcpkcs1.h in Headers */,
+				550B32EB20AA03BE00E88B48 /* silcsocketstream.h in Headers */,
+				550B340320AA061900E88B48 /* silcskr.h in Headers */,
+				550B33A620AA04C600E88B48 /* cast.h in Headers */,
+				550B32FF20AA03BE00E88B48 /* silccond.h in Headers */,
+				550B32F820AA03BE00E88B48 /* stacktrace.h in Headers */,
+				550B338C20AA04C600E88B48 /* silchash.h in Headers */,
+				550B326F20AA02D100E88B48 /* silcmode.h in Headers */,
+				550B32FB20AA03BE00E88B48 /* silcbuffer.h in Headers */,
+				550B341E20AA063D00E88B48 /* silcske_groups.h in Headers */,
+				550B339020AA04C600E88B48 /* none.h in Headers */,
+				550B343B20AA071D00E88B48 /* stringprep.h in Headers */,
+				550B327220AA02D100E88B48 /* silcpacket.h in Headers */,
+				550B326D20AA02D100E88B48 /* silcnotify.h in Headers */,
+				550B327F20AA02D100E88B48 /* silcauth.h in Headers */,
+				550B32C720AA03BE00E88B48 /* silcsnprintf.h in Headers */,
+				550B330020AA03BE00E88B48 /* silctypes.h in Headers */,
+				550B32E220AA03BE00E88B48 /* silcstream.h in Headers */,
+				550B334320AA045A00E88B48 /* tma.h in Headers */,
+				550B32F120AA03BE00E88B48 /* silcutf8.h in Headers */,
+				550B328220AA02D100E88B48 /* silcattrs.h in Headers */,
+				550B328020AA02D100E88B48 /* silccommand.h in Headers */,
+				550B338A20AA04C600E88B48 /* blowfish.h in Headers */,
+				550B32F220AA03BE00E88B48 /* silchashtable.h in Headers */,
+				550B32E920AA03BE00E88B48 /* silclog.h in Headers */,
+				550B327020AA02D100E88B48 /* silcargument.h in Headers */,
+				550B334E20AA045A00E88B48 /* tma_class.h in Headers */,
+				550B33A320AA04C600E88B48 /* silcrng.h in Headers */,
+				550B335020AA045A00E88B48 /* mp_tma.h in Headers */,
+				550B33B320AA04C600E88B48 /* silcdh.h in Headers */,
+				550B33D320AA055400E88B48 /* silcber.h in Headers */,
+				550B32D820AA03BE00E88B48 /* silcfdstream.h in Headers */,
+				550B32CA20AA03BE00E88B48 /* silcstack.h in Headers */,
+				550B33A720AA04C600E88B48 /* twofish.h in Headers */,
+				550B32F020AA03BE00E88B48 /* silcmutex.h in Headers */,
+				550B327920AA02D100E88B48 /* silcstatus.h in Headers */,
+				550B334820AA045A00E88B48 /* silcmp.h in Headers */,
+				550B339C20AA04C600E88B48 /* silchmac.h in Headers */,
+				550B32D720AA03BE00E88B48 /* silcdlist.h in Headers */,
+				550B32FE20AA03BE00E88B48 /* silcatomic.h in Headers */,
+				550B339820AA04C600E88B48 /* md5.h in Headers */,
+				550B342B20AA065E00E88B48 /* silcsftp.h in Headers */,
+				550B32CF20AA03BE00E88B48 /* silclist.h in Headers */,
+				550B32F420AA03BE00E88B48 /* silcstringprep.h in Headers */,
+				550B334720AA045A00E88B48 /* silcmath.h in Headers */,
+				550B33AA20AA04C600E88B48 /* sha1.h in Headers */,
+				550B339A20AA04C600E88B48 /* sha256.h in Headers */,
+				550B32CB20AA03BE00E88B48 /* silcconfig.h in Headers */,
+				550B338520AA04C600E88B48 /* ciphers_def.h in Headers */,
+				550B33D420AA055400E88B48 /* silcasn1.h in Headers */,
+				550B33A520AA04C600E88B48 /* aes.h in Headers */,
+				550B32DF20AA03BE00E88B48 /* silcnet.h in Headers */,
+				550B326C20AA02D100E88B48 /* silcmessage.h in Headers */,
+				550B32E420AA03BE00E88B48 /* silcschedule.h in Headers */,
+				550B32F520AA03BE00E88B48 /* silcfileutil.h in Headers */,
+				550B32C620AA03BE00E88B48 /* silcfsm.h in Headers */,
+				550B327B20AA02D100E88B48 /* silcchannel.h in Headers */,
+				550B33AF20AA04C600E88B48 /* rsa.h in Headers */,
+				550B33B120AA04C600E88B48 /* silccipher.h in Headers */,
+				550B348420AA0EFA00E88B48 /* gunidecomp.h in Headers */,
+				550B32D220AA03BE00E88B48 /* silcthread.h in Headers */,
+				550B32C820AA03BE00E88B48 /* silcutil.h in Headers */,
+				550B32ED20AA03BE00E88B48 /* silctime.h in Headers */,
+				550B343120AA065E00E88B48 /* sftp_util.h in Headers */,
+				550B338D20AA04C600E88B48 /* silcpk.h in Headers */,
+				550B32D120AA03BE00E88B48 /* silcbuffmt.h in Headers */,
+				550B341F20AA063D00E88B48 /* silcconnauth.h in Headers */,
+				550B338B20AA04C600E88B48 /* silcpkcs.h in Headers */,
+				550B334420AA045A00E88B48 /* tma_superclass.h in Headers */,
+				550B348520AA0EFA00E88B48 /* gunicomp.h in Headers */,
+				550B341620AA063D00E88B48 /* silcske_payload.h in Headers */,
+				550B328520AA032300E88B48 /* silc.h in Headers */,
+				550B33AC20AA04C600E88B48 /* ciphers.h in Headers */,
+				550B339D20AA04C600E88B48 /* rc5.h in Headers */,
+				550B343620AA06ED00E88B48 /* silcdistdefs.h in Headers */,
+				550B328620AA032300E88B48 /* silcversion.h in Headers */,
+				550B334C20AA045A00E88B48 /* mp_gmp.h in Headers */,
+				550B328820AA034F00E88B48 /* silcdefs.h in Headers */,
+				550B341520AA063D00E88B48 /* silcske.h in Headers */,
+				550B32E320AA03BE00E88B48 /* silcmemory.h in Headers */,
+				550B327820AA02D100E88B48 /* silcid.h in Headers */,
+				550B32CE20AA03BE00E88B48 /* silcasync.h in Headers */,
+				550B32E720AA03BE00E88B48 /* silcstrutil.h in Headers */,
+				550B32C520AA03BE00E88B48 /* silcmime.h in Headers */,
+				550B327520AA02D100E88B48 /* silcpubkey.h in Headers */,
+				550B324220AA01ED00E88B48 /* libsilc.h in Headers */,
+				550B339120AA04C600E88B48 /* rc5_internal.h in Headers */,
+				550B338920AA04C600E88B48 /* blowfish_internal.h in Headers */,
+				550B339E20AA04C600E88B48 /* rijndael_internal.h in Headers */,
+				550B33B220AA04C600E88B48 /* md5_internal.h in Headers */,
+				550B338620AA04C600E88B48 /* twofish_internal.h in Headers */,
+				550B339220AA04C600E88B48 /* cast_internal.h in Headers */,
+				550B341320AA063D00E88B48 /* groups_internal.h in Headers */,
+				550B33B020AA04C600E88B48 /* sha1_internal.h in Headers */,
+				550B33AB20AA04C600E88B48 /* sha256_internal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B324A20AA023E00E88B48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B347920AA09D300E88B48 /* silcclient.h in Headers */,
+				550B346620AA09D300E88B48 /* client_entry.h in Headers */,
+				550B346A20AA09D300E88B48 /* client_channel.h in Headers */,
+				550B346420AA09D300E88B48 /* client_notify.h in Headers */,
+				550B347B20AA09D300E88B48 /* client_prvmsg.h in Headers */,
+				550B347420AA09D300E88B48 /* command_reply.h in Headers */,
+				550B347720AA09D300E88B48 /* client_keyagr.h in Headers */,
+				550B346B20AA09D300E88B48 /* client_listener.h in Headers */,
+				550B347220AA09D300E88B48 /* client_ftp.h in Headers */,
+				550B347020AA09D300E88B48 /* client_register.h in Headers */,
+				550B347620AA09D300E88B48 /* silcclient_entry.h in Headers */,
+				550B346820AA09D300E88B48 /* command.h in Headers */,
+				550B346320AA09D300E88B48 /* client_internal.h in Headers */,
+				550B347C20AA09D300E88B48 /* client.h in Headers */,
+				550B346920AA09D300E88B48 /* client_connect.h in Headers */,
+				550B325120AA023E00E88B48 /* libsilcclient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		550B323C20AA01ED00E88B48 /* libsilc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550B324520AA01ED00E88B48 /* Build configuration list for PBXNativeTarget "libsilc" */;
+			buildPhases = (
+				550B323820AA01ED00E88B48 /* Sources */,
+				550B323920AA01ED00E88B48 /* Frameworks */,
+				550B323A20AA01ED00E88B48 /* Headers */,
+				550B323B20AA01ED00E88B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libsilc;
+			productName = libsilc;
+			productReference = 550B323D20AA01ED00E88B48 /* libsilc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		550B324C20AA023E00E88B48 /* libsilcclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550B325220AA023E00E88B48 /* Build configuration list for PBXNativeTarget "libsilcclient" */;
+			buildPhases = (
+				550B324820AA023E00E88B48 /* Sources */,
+				550B324920AA023E00E88B48 /* Frameworks */,
+				550B324A20AA023E00E88B48 /* Headers */,
+				550B324B20AA023E00E88B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550B347F20AA0AD000E88B48 /* PBXTargetDependency */,
+			);
+			name = libsilcclient;
+			productName = libsilcclient;
+			productReference = 550B324D20AA023E00E88B48 /* libsilcclient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550B323420AA01ED00E88B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "C.W. Betts";
+				TargetAttributes = {
+					550B323C20AA01ED00E88B48 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					550B324C20AA023E00E88B48 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 550B323720AA01ED00E88B48 /* Build configuration list for PBXProject "libsilc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 550B323320AA01ED00E88B48;
+			productRefGroup = 550B323E20AA01ED00E88B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550B323C20AA01ED00E88B48 /* libsilc */,
+				550B324C20AA023E00E88B48 /* libsilcclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550B323B20AA01ED00E88B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B324B20AA023E00E88B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550B323820AA01ED00E88B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B334B20AA045A00E88B48 /* tma.c in Sources */,
+				550B33EE20AA05F000E88B48 /* silcidcache.c in Sources */,
+				550B33D620AA055400E88B48 /* silcasn1_encode.c in Sources */,
+				550B33AD20AA04C600E88B48 /* sha256.c in Sources */,
+				550B33A920AA04C600E88B48 /* silcpk.c in Sources */,
+				550B33A220AA04C600E88B48 /* blowfish.c in Sources */,
+				550B32D620AA03BE00E88B48 /* silcstrutil.c in Sources */,
+				550B33A820AA04C600E88B48 /* none.c in Sources */,
+				550B32FA20AA03BE00E88B48 /* silcmemory.c in Sources */,
+				550B338720AA04C600E88B48 /* aes.c in Sources */,
+				550B33B620AA04C600E88B48 /* silcpkcs1.c in Sources */,
+				550B32E120AA03BE00E88B48 /* silcstack.c in Sources */,
+				550B332320AA041200E88B48 /* silcunixsocketstream.c in Sources */,
+				550B32D920AA03BE00E88B48 /* silcfileutil.c in Sources */,
+				550B332F20AA041200E88B48 /* silcunixschedule.c in Sources */,
+				550B32E820AA03BE00E88B48 /* silcmime.c in Sources */,
+				550B342C20AA065E00E88B48 /* sftp_util.c in Sources */,
+				550B334D20AA045A00E88B48 /* modinv.c in Sources */,
+				550B327420AA02D100E88B48 /* silccommand.c in Sources */,
+				550B339620AA04C600E88B48 /* rsa.c in Sources */,
+				550B341C20AA063D00E88B48 /* payload.c in Sources */,
+				550B32EC20AA03BE00E88B48 /* silcstream.c in Sources */,
+				550B32EE20AA03BE00E88B48 /* silcstringprep.c in Sources */,
+				550B32DE20AA03BE00E88B48 /* silcfdstream.c in Sources */,
+				550B343020AA065E00E88B48 /* sftp_client.c in Sources */,
+				550B338F20AA04C600E88B48 /* twofish.c in Sources */,
+				550B32DC20AA03BE00E88B48 /* stacktrace.c in Sources */,
+				550B340120AA061900E88B48 /* silcskr.c in Sources */,
+				550B33F120AA05F000E88B48 /* silcapputil.c in Sources */,
+				550B327C20AA02D100E88B48 /* silcid.c in Sources */,
+				550B32D520AA03BE00E88B48 /* silcschedule.c in Sources */,
+				550B326E20AA02D100E88B48 /* silcstatus.c in Sources */,
+				550B334120AA045A00E88B48 /* silcprimegen.c in Sources */,
+				550B327D20AA02D100E88B48 /* silcpacket.c in Sources */,
+				550B32F920AA03BE00E88B48 /* silchashtable.c in Sources */,
+				550B343A20AA071D00E88B48 /* stringprep.c in Sources */,
+				550B33C120AA053100E88B48 /* silcvcard.c in Sources */,
+				550B327A20AA02D100E88B48 /* silcauth.c in Sources */,
+				550B32F720AA03BE00E88B48 /* silcconfig.c in Sources */,
+				550B332820AA041200E88B48 /* silcunixutil.c in Sources */,
+				550B338820AA04C600E88B48 /* silcrng.c in Sources */,
+				550B342E20AA065E00E88B48 /* sftp_server.c in Sources */,
+				550B33D520AA055400E88B48 /* silcasn1_decode.c in Sources */,
+				550B327620AA02D100E88B48 /* silcchannel.c in Sources */,
+				550B32D020AA03BE00E88B48 /* silcsocketstream.c in Sources */,
+				550B344120AA080600E88B48 /* rfc3454.c in Sources */,
+				550B327E20AA02D100E88B48 /* silcpubkey.c in Sources */,
+				550B327320AA02D100E88B48 /* silcargument.c in Sources */,
+				550B33AE20AA04C600E88B48 /* md5.c in Sources */,
+				550B343420AA065E00E88B48 /* sftp_fs_memory.c in Sources */,
+				550B33CE20AA055400E88B48 /* silcber.c in Sources */,
+				550B332A20AA041200E88B48 /* silcunixnet.c in Sources */,
+				550B334920AA045A00E88B48 /* mp_tma.c in Sources */,
+				550B339920AA04C600E88B48 /* sha1.c in Sources */,
+				550B32FD20AA03BE00E88B48 /* silcasync.c in Sources */,
+				550B32DA20AA03BE00E88B48 /* silcutil.c in Sources */,
+				550B334620AA045A00E88B48 /* mpbin.c in Sources */,
+				550B341920AA063D00E88B48 /* silcconnauth.c in Sources */,
+				550B32EF20AA03BE00E88B48 /* silcfsm.c in Sources */,
+				550B328120AA02D100E88B48 /* silcattrs.c in Sources */,
+				550B32C920AA03BE00E88B48 /* silctime.c in Sources */,
+				550B32DD20AA03BE00E88B48 /* silcnet.c in Sources */,
+				550B33A020AA04C600E88B48 /* silchash.c in Sources */,
+				550B32F320AA03BE00E88B48 /* silclog.c in Sources */,
+				550B327720AA02D100E88B48 /* silcmessage.c in Sources */,
+				550B32F620AA03BE00E88B48 /* silcutf8.c in Sources */,
+				550B331E20AA041200E88B48 /* silcunixthread.c in Sources */,
+				550B33D020AA055400E88B48 /* silcasn1.c in Sources */,
+				550B341B20AA063D00E88B48 /* silcske.c in Sources */,
+				550B32D320AA03BE00E88B48 /* silcbuffmt.c in Sources */,
+				550B32EA20AA03BE00E88B48 /* silcsnprintf.c in Sources */,
+				550B327120AA02D100E88B48 /* silcnotify.c in Sources */,
+				550B33A120AA04C600E88B48 /* silcpkcs.c in Sources */,
+				550B344320AA082E00E88B48 /* nfkc.c in Sources */,
+				550B341820AA063D00E88B48 /* groups.c in Sources */,
+				550B339720AA04C600E88B48 /* silccipher.c in Sources */,
+				550B33B520AA04C600E88B48 /* silchmac.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550B324820AA023E00E88B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550B346E20AA09D300E88B48 /* client_channel.c in Sources */,
+				550B346C20AA09D300E88B48 /* client_entry.c in Sources */,
+				550B347A20AA09D300E88B48 /* client_listener.c in Sources */,
+				550B347120AA09D300E88B48 /* client.c in Sources */,
+				550B346520AA09D300E88B48 /* client_attrs.c in Sources */,
+				550B346120AA09D300E88B48 /* client_notify.c in Sources */,
+				550B347320AA09D300E88B48 /* client_keyagr.c in Sources */,
+				550B346720AA09D300E88B48 /* command_reply.c in Sources */,
+				550B346F20AA09D300E88B48 /* client_prvmsg.c in Sources */,
+				550B347D20AA09D300E88B48 /* command.c in Sources */,
+				550B346220AA09D300E88B48 /* client_register.c in Sources */,
+				550B346D20AA09D300E88B48 /* client_ftp.c in Sources */,
+				550B347820AA09D300E88B48 /* client_connect.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550B347F20AA0AD000E88B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550B323C20AA01ED00E88B48 /* libsilc */;
+			targetProxy = 550B347E20AA0AD000E88B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		550B324320AA01ED00E88B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.1.11;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		550B324420AA01ED00E88B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.1.11;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		550B324620AA01ED00E88B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_SILCDEFS_H,
+					_REENTRANT,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libsilc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silc.libsilc;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		550B324720AA01ED00E88B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_SILCDEFS_H,
+					_REENTRANT,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libsilc/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silc.libsilc;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		550B325320AA023E00E88B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = libsilcclient/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_SILCDEFS_H,
+					_REENTRANT,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libsilcclient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silc.libsilcclient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		550B325420AA023E00E88B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = libsilcclient/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_SILCDEFS_H,
+					_REENTRANT,
+					HAVE_CONFIG_H,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = libsilcclient/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.silc.libsilcclient;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550B323720AA01ED00E88B48 /* Build configuration list for PBXProject "libsilc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B324320AA01ED00E88B48 /* Debug */,
+				550B324420AA01ED00E88B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550B324520AA01ED00E88B48 /* Build configuration list for PBXNativeTarget "libsilc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B324620AA01ED00E88B48 /* Debug */,
+				550B324720AA01ED00E88B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550B325220AA023E00E88B48 /* Build configuration list for PBXNativeTarget "libsilcclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550B325320AA023E00E88B48 /* Debug */,
+				550B325420AA023E00E88B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550B323420AA01ED00E88B48 /* Project object */;
+}
